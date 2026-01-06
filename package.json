@@ -1,6 +1,8 @@
 {
   "name": "cmdk-root",
   "private": true,
+  "main": "./cmdk/dist/index.js",
+  "types": "./cmdk/dist/index.d.ts",
   "scripts": {
     "build": "pnpm -F cmdk build",
     "dev": "pnpm -F cmdk build --watch",
